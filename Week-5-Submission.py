@@ -23,10 +23,13 @@ class Superhero(Character):
         self._weakness = weakness # Protected attribute
 
     # Method to reveal the superhero's identity
+
+    # Method to reveal the superhero's identity
     def reveal_identity(self):
+        """Return a string revealing the superhero's real name and hero name."""
         return f"My real name is {self.name}, but I am {self.hero_name}!"
-    
-    # Method to use a superpower
+
+      # Method to use a superpower
     def use_superpower(self, power):
         if power in self.superpowers:
             return f"{self.hero_name} uses {power}!"
@@ -49,20 +52,20 @@ class Vehicle:
 
 class Car(Vehicle):
     def move(self):
-        print("Driving" 🚗)  
+        print("Driving 🚗")  
                         
 class Plane(Vehicle):
     def move(self):
-        print("Flying" ✈️)  
+        print("Flying ✈️")  
 
 class Boat(Vehicle):
     def move(self):
-        print("Sailing" ⛵) 
+        print("Sailing ⛵") 
               
 class Bike(Vehicle):
     def move(self):
-        print("Biking" 🚴‍♂️)  
+        print("Biking 🚴‍♂️")  
 
 class Train(Vehicle):
     def move(self):
-        print("Choo Choo" 🚆)  
+        print("Choo Choo 🚆")
